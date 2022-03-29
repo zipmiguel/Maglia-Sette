@@ -1,0 +1,470 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: #999;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul, li{
+    list-style: none;
+}
+
+.material-icons{
+    vertical-align: middle;
+    color: #363636;
+}
+
+header{
+    width: 980px;
+    height: 80px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+
+#header-top{
+    margin: 0;
+    width: auto;
+}
+
+div#top{
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+    background-color: #2E8B57;
+}
+
+header #logo{
+    /* border: 1px solid red; */
+    padding: 0 0 0 30px;
+    width: auto;
+    display: block;
+    float: left;
+}
+
+div#logo #image-logo{
+    margin: 0 auto;
+}
+
+header #header-perfil{
+    /* border: 1px solid red; */
+    display: flex;
+    margin: 0;
+    padding: 20px 30px 0 0;
+    float: right;
+}
+
+header #header-perfil ul{
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0 0 0 30px;
+    width: 100%;
+    height: 55px;
+}
+
+header #header-perfil #icon-perfil{
+    /* border: 1px solid red; */
+    padding: 0 0 5px 0;
+    margin: 0 auto;
+    width: 25px;
+    height: 25px;
+}
+
+header #header-perfil #label-perfil{
+    /* border: 1px solid red; */
+    padding: 0;
+    margin: 0 auto;
+    width: 38px;
+    height: 25px;
+}
+
+header #header-perfil #icon-shop{
+    /* border: 1px solid red; */
+    padding: 0 0 5px 0;
+    margin: 0 auto;
+    width: 25px;
+    height: 25px;
+}
+
+header #header-perfil #label-shop{
+    /* border: 1px solid red; */
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 25px;
+}
+
+header #header-perfil a{
+    color: #363636;
+}
+
+nav{
+    /* border: 1px solid red; */
+    width: 980px;
+    padding: 0px;
+    margin: 0;
+}
+
+nav.navbar{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: inline-block;
+}
+
+nav ul{
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 12px 0 12px 0;
+    text-transform: uppercase;  
+    font-size: 13px;  
+    display: flex;
+    justify-content: space-around;
+    background-color: #751414;
+}
+
+nav li{
+    /* border: 1px solid red; */
+    width: auto;
+}
+
+nav.navbar li a{
+    color: #2E8B57;
+}
+
+nav.navbar #ul-bottom-navbar{
+    /* border: 1px solid red; */
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+}
+
+nav.navbar #ul-bottom-navbar li{
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    font-size: 16px;
+    text-transform: none;
+    font-weight: bold;
+}
+
+div.conteudo{
+    /* border: 1px solid red; */
+    height: 660px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+div#lancamentos{
+    /* border: 1px solid red; */
+    padding: 50px 0;
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+}
+
+div#lancamentos section{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+    /* flex-wrap: wrap; */
+}
+
+.camisas-lancamentos{
+    /* border: 1px solid red; */
+    width: 200px;
+}
+
+div#logos{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 140px;
+    display: inline-block;
+}
+
+div#logos section{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.imagem-logos{
+    /* border: 1px solid red; */
+    width: 60px;
+}
+
+#header-footer{
+    margin: 0;
+    width: auto;
+}
+
+div#footer{
+    /* border: 1px solid red; */
+    display: inline-block;
+    margin: 0;
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+    /* height: 120px; */
+    background-color: #2E8B57;
+}
+
+header #description{
+    /* border: 1px solid red; */
+    display: inline-flex;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 1.3em;
+    color: #751414;
+    font-size: 16px;
+}
+
+#name{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header #header-contact a{
+    color: #363636;
+}
+
+header #header-contact{
+    /* border: 1px solid red; */
+    display: flex;
+    margin: 0;
+    padding: 30px 30px 0 0;
+    float: right;
+}
+
+header #header-contact ul{
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0 0 0 60px;
+}
+
+#header-contact .material-icons{
+    /* border: 1px red; */
+    margin: 0 5px 0 0;
+}
+
+#conteudo-produtos{
+    /* border: 1px solid red; */
+    height: 980px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;   
+}
+
+div#produtos{
+    /* border: 1px solid red; */
+    padding: 0;
+    width: 100%;
+    height: 800px;
+    display: inline-block;
+}
+
+section.row-produtos{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 140px;
+    margin: 0 auto;
+    /* padding: 20px 20px; */
+    /* flex-wrap: wrap; */
+}
+
+.camisa-produtos{
+    /* border: 1px solid red; */
+    width: 100px;
+}
+
+.camisa-time{
+    /* border: 1px solid red; */
+    width: 100px;
+}
+
+.camisa-description{
+    /* border: 1px solid red; */
+    display: inline-flex;
+    width: 280px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 1.3em;
+    color: #999;
+    font-size: 16px;
+}
+
+.camisa-description ul{
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    padding: 30px 30px 0 0;
+    width: 100%;
+}
+
+.name-camisa{
+    font-weight: bold;
+    text-transform: uppercase;
+    /* letter-spacing: .03em; */
+}
+
+.retro{
+    font-style: italic;
+    text-transform: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+div.conteudo-fale-consco{
+    /* border: 1px solid red; */
+    height: 680px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+div#fale-conosco{
+    /* border: 1px solid red; */
+    padding: 0;
+    width: 100%;
+    display: inline-block;
+}
+
+div#fale-conosco section{
+    /* border: 1px solid red; */
+    padding: 0;
+    width: 650px;
+    height: 200px;
+    display: inline-block;
+}
+
+.label-input{
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 10px 0 10px 0;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.label-input label{
+    /* border: 1px solid red; */
+    width: 75px;
+    margin: 0;
+    padding: 0 10px 0 50px;
+    text-align: center;
+}
+
+.label-input input{
+    /* border: 1px solid red; */
+    width: 200px;
+    margin: 0;
+    padding: 0 0 0 20px;
+    border-radius: 5px;
+}
+
+.label-input textarea{
+    /* border: 1px solid red; */
+    width: 200px;
+    height: 60px;
+    margin: 0;
+    padding: 0 0 0 20px;
+    border-radius: 5px;
+}
+
+#buttons{
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    display: flex;
+    padding: 0 0 0 100px;
+}
+
+#buttons label #bt_enviar, #bt_reset{
+    /* border: 1px solid red; */
+    margin: 5px;
+    padding: 2px 10px;
+    border-radius: 20px;
+}
+
+#buttons label #bt_enviar{
+    background-color: #2E8B57;
+    color: #FFF;
+    font-weight: bold;
+}
+
+#buttons label #bt_reset{
+    background-color: #777;
+    color: #000;
+}
+
+div#navbar-sobre-nos #ul-bottom-navbar-sobre-nos{
+    /* border: 1px solid red; */
+    border-top: 3px solid #2E8B57;
+    padding-top: 20px;
+    height: 60px;
+    display: flex;
+    /* width: 100%; */
+    margin: 0;
+}
+
+div#navbar-sobre-nos #ul-bottom-navbar-sobre-nos li{
+    /* border: 1px solid red; */
+    padding: 0 40px 0 0;
+    margin: 0 auto;
+    font-size: 16px;
+    text-transform: none;
+    font-weight: bold;
+}
+
+div#sobre-nos{
+    /* border: 1px solid red; */
+    width: 100%;
+    margin: 0;
+    padding: 50px 0;
+    display: inline-block;
+}
+
+div#sobre-nos section{
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    padding: 0;
+    width: 400px;
+    display: flex;
+}
+
+div#sobre-nos section p{
+    border: 2px solid #2E8B57;
+    width: auto;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 1.5em;
+}
